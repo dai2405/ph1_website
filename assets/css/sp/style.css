@@ -1,0 +1,254 @@
+/**
+* File Name : style.css
+* Description : POSSE課題(SP)
+*
+* ---- Table of Contents ----
+*/
+@media (max-width: 768px){
+
+/* 1.0 - Common
+*    1.1 - カスタムプロパティ
+*    1.2 - ベーススタイル
+*    1.3 - 汎用スタイル
+*
+* 2.0 - Sections
+/* *    2.1 - ヘッダー */
+    .header{
+      height: 48px;
+      padding: 0 12px;
+    }
+
+    .header-logo{
+      width: 100px;
+    }
+
+    .header-nav{
+      display: none;
+    }
+    .header-button{
+      width: 42px;
+      height: 42px;
+      position: relative;
+      margin-left: auto;
+    }
+
+    .header-buttonLIne{
+      display: block;
+      width: 30px;
+      height: 2px;
+      background-color: #0071BC;
+      position: absolute;
+      left: 50%;
+      transform: transform: translateX(-50%);
+    }
+
+    .header-bttonLine:nth-of-type(1){
+      top: 13px;
+    }
+
+    .header-bttonLine:nth-of-type(2){
+      top: 20px;
+    }
+
+    .header-bttonLine:nth-of-type(3){
+      top: 27px;
+    }
+/* /*    2.2 - フッター */
+    .footer-logo{
+      width: 160px;
+    }
+/*    2.3 - メインビジュアル*/
+    .mainvisual{
+      height: 380px;
+      padding: 16px 12px;
+      background-image: url(../../img/bg-mainvisual.jpg);
+    }
+
+    .mainvisual-title{
+      font-size: 12px;
+      padding-left: 8px;
+      padding-right: 0px;
+    }
+
+    .mainvisual-lead{
+      font-size: 26px;
+      padding-left: 8px;
+    }
+
+    .mainvisual-head{
+      gap: 8px;
+    }
+
+    .mainvisual-scroll{
+      display: none;
+    }
+/*    2.4 - POSSEとは*/
+    .wrapper{
+      padding: 40px 12px 80px;
+      gap: 120px;
+    }
+
+    .container{
+      padding: 0;
+    }
+
+    .section{
+      padding-top: 48px;
+      margin-top: -48px;
+    }
+
+    .section-body{
+      margin-top: 20px;
+    }
+
+    .title-ja{
+      font-size: 24px;
+    }
+
+    .title-en{
+      font-size: 10px;
+      margin-top: 4px;
+    }
+
+    .about-column{
+      grid-template-columns: 1fr;
+      gap: 10px;
+    }
+/*    2.5 - イベント*/
+    .event-list{
+      justify-content: flex-start;
+    }
+/*    2.6 - 日常生活*/
+    .daily-item{
+      display: block;
+      width: 320px;
+      /* flex-shrink: 0; */
+    }
+
+    .daily-item:nth-of-type(odd){
+      flex-direction: column;
+      margin-right: 0;
+    }
+
+    .daily-item:nth-of-type(even){
+      flex-direction: column;
+      margin-left: 0;
+    }
+
+    .daily-itemImage{
+      margin-top: 0;
+      border-radius: 10px 10px 0 0 ;
+      width: 100%;
+      height: 200px;
+    }
+
+    .daily-item:nth-of-type(odd).daily-itemImage{
+      margin-right: 0;
+    }
+
+    .daily-item:nth-of-type(even).daily-itemImage{
+      margin-left: 0;
+    }
+
+    .daily-itemBody{
+      padding: 20px 24px;
+    }
+
+    .daily-titleNumber{
+      font-size: 40px;
+    }
+
+    .daily-titleText{
+      font-size: 20px;
+      margin-left: 12px;
+    }
+
+    .daily-outline{
+      margin-top: 20px;
+    }
+
+    .daily-list{
+      flex-direction: row;
+      gap: 40px;
+    }
+
+    .daily-slide{
+      overflow: auto;
+    }
+/*    2.7 - 公式LINE*/
+    .cta{
+      background-image: url(../../img/sp/bg-cta.jpg);
+    }
+
+    .cta-title{
+      font-size: 24px;
+    }
+
+    .cta-content{
+      text-align: left;
+    }
+/*
+* 3.0 - Animation, JavaScript Object
+*    3.1 - フェードイン
+*    3.2 - スライダー
+*
+*/
+
+/* ===================================================
+  レスポンシブ
+=================================================== */
+
+  /* 1.0 - Common */
+  /* ============================================ */
+
+  /**
+  * 1.2 - ベーススタイル
+  */
+
+  /**
+  * 1.3 - 汎用スタイル
+  */
+
+  /* 2.0 - Sections */
+  /* ============================================ */
+
+  /**
+  * 2.1 - ヘッダー
+  */
+
+  /**
+  * 2.2 - フッター
+  */
+
+  /**
+  * 2.3 - メインビジュアル
+  */
+
+  /**
+  * 2.4 - POSSEとは
+  */
+
+  /**
+  * 2.5 - イベント
+  */
+
+  /**
+  * 2.6 - 日常生活
+  */
+
+  /**
+  * 2.7 - 公式LINE
+  */
+
+  /* 3.0 - Animation, JavaScript Object */
+  /* ============================================ */
+
+  /**
+  * 3.1 - フェードイン
+  */
+
+  /**
+  * 3.2 - スライダー
+  */
+}
+
