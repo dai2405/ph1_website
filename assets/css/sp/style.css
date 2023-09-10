@@ -20,6 +20,7 @@
 
     .header-logo{
       width: 100px;
+      z-index: 1;
     }
 
     .header-nav{
@@ -33,12 +34,13 @@
       padding: 120px 24px 40px;
       transition: visibility .3s lister, opacity .3s lister;
     }
-    
+
     .header-button{
       width: 42px;
       height: 42px;
       position: relative;
       margin-left: auto;
+      z-index: 1;
     }
 
     .header-buttonLIne{
@@ -92,6 +94,25 @@
       top:27px;
     }
 
+    .header.is-open .header-buttonLine:nth-of-type(1){
+      transform: translateX(-50%) rotate(45deg);
+      top: 20px;
+    }
+
+    .header.is-open .header-buttonLine:nth-of-type(2){
+    opacity: 0;
+    }
+
+    .header.is-open .header-buttonLine:nth-of-type(3){
+      transform: translateX(-50%) rotate(-45deg);
+      top: 20px;
+    }
+
+    .header.is-open .header-nav{
+      visibility: visible;
+      opacity: 1;
+    }
+    
 /* /*    2.2 - フッター */
     .footer-logo{
       width: 160px;
