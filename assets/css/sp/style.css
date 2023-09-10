@@ -23,8 +23,17 @@
     }
 
     .header-nav{
-      display: none;
+      position: fixed;
+      inset: 0;
+      background-color: #F7F9FB;
+      visibility: hidden;
+      opacity: 0;
+      flex-direction: column;
+      gap: 0;
+      padding: 120px 24px 40px;
+      transition: visibility .3s lister, opacity .3s lister;
     }
+    
     .header-button{
       width: 42px;
       height: 42px;

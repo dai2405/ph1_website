@@ -68,3 +68,10 @@ text.innerHTML = 'About Edited';
 const btn = document.getElementById('js-headerButton');
 
 btn.addEventListener('click',hello);
+
+const header = document.getElementById('js-header');
+const button = document.getElementById("js-headerButton");
+
+button.addEventListener("click",()=>{
+    header.classList.toggle("is-open");
+});
