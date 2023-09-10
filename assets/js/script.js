@@ -67,6 +67,4 @@ text.innerHTML = 'About Edited';
 
 const btn = document.getElementById('js-headerButton');
 
-btn.onclick = function(){
-    console.log('こんにちは');
-}
+btn.addEventListener('click',hello);
