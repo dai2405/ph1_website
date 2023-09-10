@@ -53,3 +53,20 @@ for(let number=5; number<=15; number++){
 let about = document.getElementById('about');
 console.log(about);
 
+let title = document.getElementsByClassName('title-en');
+console.log(title[1].innerHTML);
+
+title.innerHTML='About Edited';
+
+const hello = function(){
+    console.log('こんにちは');
+}
+
+let title = document.querySelector('title-en');
+text.innerHTML = 'About Edited';
+
+const btn = document.getElementById('js-headerButton');
+
+btn.onclick = function(){
+    console.log('こんにちは');
+}
